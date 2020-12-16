@@ -87,6 +87,311 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*HOMEPAGE*/
+
+/**** Header and footer base styles ******/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/******HEADER******/
+
+header {
+
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.header-divider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul li {
+
+}
+
+.hero-area {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+/*****MAIN****/
+
+/******Sign Up Form****/
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.form-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-description h2 {
+
+}
+
+.form-description p {
+
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h2 {
+
+}
+
+
+
+/*****Features List *****/
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features h1 {
+
+}
+
+.features p {
+
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.fontawesome-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-item-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*******Reviews****/
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.reviews h1 {
+
+}
+
+.reviews h2 {
+
+}
+
+.reviews p{
+
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/******FOOTER*****/
+
+footer {
+
+}
+
+footer h3{
+
+}
+
+footer p{
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*ABOUT PAGE*/
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.mission h1 {
+
+}
+
+.mission p {
+
+}
+
+.mission-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+.contact-section h2 {
+
+}
+
+.contact-section p{
+
+}
+
+.general-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*FAQ PAGE*/
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question h1 {
+
+}
+
+.question h2 {
+
+}
+
+.question p {
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +565,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
