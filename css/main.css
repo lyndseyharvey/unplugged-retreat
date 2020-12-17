@@ -95,6 +95,8 @@ html {
 body {
  font-family: 'Open Sans', sans-serif;
  font-size: 1em;
+ color: #e2e3ed;
+ background-color: #202322;
 }
 
 ul,
@@ -144,6 +146,8 @@ address {
 
 }
 
+
+
 /*HOMEPAGE*/
 
 /**** Header and footer base styles ******/
@@ -190,6 +194,10 @@ header nav ul {
   width: 60%;
 }
 
+header nav ul li {
+  text-transform: uppercase;
+}
+
 /******FOOTER*****/
 
 footer {
@@ -203,6 +211,7 @@ footer p{
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  text-align: center;
 }
 
 footer .contact {
@@ -240,6 +249,33 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+  padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
@@ -269,6 +305,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 /*******Reviews****/
@@ -277,6 +314,7 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h1 {
@@ -295,6 +333,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .contact-section {
@@ -302,6 +341,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .contact-section p{
@@ -324,6 +364,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq h2 {
