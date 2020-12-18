@@ -21,7 +21,7 @@
 
   <meta name="theme-color" content="#fafafa">
 <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,Poppins:500,700" rel="stylesheet">
 </head>
 
 <body>
@@ -29,7 +29,9 @@
 <header>
 
   <div class="content-wrapper">
-    <a href="#"><img src="" alt="unplugged logo"></a>
+    <figure>
+    <img src="img/unpluggedlogo.png" alt="unplugged logo">
+  </figure>
     <div class="header-divider"></div>
     <nav>
       <ul>
@@ -39,15 +41,18 @@
     </nav>
   </div>
 
-<div class="hero-area">
-  <h2>Retreat from the desk, return refeshed.</h2>
-</div>
-
 </header>
 
 <main>
 
+  <section class="hero-area">
+    <div class="content-wrapper">
+    <h2>Retreat from the desk, return refeshed.</h2>
+  </div>
+  </section>
+
   <aside>
+    <div class="content-wrapper">
     <div class="form-description">
       <h3>Want to join the next retreat?</h3>
       <p>Find out when we are heading off on our next retreat and how your company or team can sign up!</p>
@@ -57,35 +62,38 @@
     <input type="text" name="name" value="email address">
     <input type="button" value="Download Itinerary">
   </div>
+</div>
   </aside>
 
   <section class="features">
     <div class="content-wrapper">
       <h2>Have the work week you always dreamed of, without the bad WiFi</h2>
-      <article class="features-items">
+      <div class="features-items">
+      <article>
         <p class="fontawesome-icon"></p>
         <p class="features-item-description">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
       </article>
-      <article class="features-items">
+      <article>
         <p class="fontawesome-icon"></p>
         <p class="features-item-description">12 private rooms with en-suite bathrooms, 2 group meeting rooms and 4 breakout rooms.</p>
       </article>
-      <article class="features-items">
+      <article>
         <p class="fontawesome-icon"></p>
         <p class="features-item-description">Private chef team providing on-demand meals - just like your team kitchen.</p>
       </article>
-      <article class="features-items">
+      <article>
         <p class="fontawesome-icon"></p>
         <p class="features-item-description">5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
       </article>
-      <article class="features-items">
+      <article>
         <p class="fontawesome-icon"></p>
         <p class="features-item-description">Retreat facilitator to manage your day-to-day activities so you all get a chance to rest.</p>
       </article>
-      <article class="features-items">
+      <article>
         <p class="fontawesome-icon"></p>
         <p class="features-item-description">Dedicated computer room for times you must wifi.</p>
       </article>
+      </div>
     </div>
   </section>
 
@@ -93,9 +101,13 @@
     <div class="content-wrapper">
       <h2>Be a better team in 5 days, like these.</h2>
       <article>
-          <a href="#"><img src="" alt="review image"></a>
+        <figure>
+          <img src="img/reviews.jpg" alt="Previous retreat image">
+        </figure>
+        <div>
           <h3>LaCrue Bottling Co.<br>October 2017</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
     </article>
     </div>
   </section>
@@ -106,16 +118,17 @@
   <div class="content-wrapper">
     <div class="footer-content">
       <div class="contact">
+        <h3>Contact</h3>
         <address>
-          <h3>Contact</h3>
           <p>555-555-5555</p>
           <p>hello@unplugged.com</p>
         </address>
       <div class="social">
+        <h3>Social</h3>
         <div class="social-icons">
-          <p><a href="https://www.facebook.com/yoursite" target="_blank"</a></p>
-          <p><a href="https://www.twitter.com" target="_blank"</a></p>
-          <p><a href="https://www.instagram.com" target="_blank"</a></p>
+          <p><a href="https://www.facebook.com/yoursite" target="_blank"></a></p>
+          <p><a href="https://www.twitter.com" target="_blank"></a></p>
+          <p><a href="https://www.instagram.com" target="_blank"></a></p>
         </div>
       </div>
       <div class="copyright">
@@ -123,6 +136,7 @@
       </div>
     </div>
   </div>
+</div>
 </footer>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
